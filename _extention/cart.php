@@ -1,7 +1,6 @@
 <?
-
-$_SESSION['id'] = 0;
-$_SESSION['count'] = 0;
+$id = $_SESSION['id'] = 0;
+$count = $_SESSION['count'] = 0;
 
 $sql = "SELECT * FROM record WHERE id";
 
